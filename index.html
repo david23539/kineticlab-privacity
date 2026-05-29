@@ -78,19 +78,19 @@
         <header>
             <div class="logo">KineticLab</div>
             <h1>Política de Privacidad</h1>
-            <p class="last-update">Última actualización: 25 de mayo, 2026</p>
+            <p class="last-update">Última actualización: 29 de mayo, 2026</p>
         </header>
 
         <div class="content-section">
             <h2>1. Introducción</h2>
-            <p>KineticLab ("nosotros", "nuestro" o "la Aplicación") se compromete a proteger tu privacidad. Esta política explica cómo manejamos tus datos biometrícos y de entrenamiento, con un enfoque estricto en la privacidad local y el cumplimiento del RGPD.</p>
+            <p>KineticLab ("nosotros", "nuestro" o "la Aplicación") se compromete a proteger tu privacidad. Esta política explica cómo manejamos tus datos biometrícos y de entrenamiento (incluyendo Apple Fitness), con un enfoque estricto en la privacidad local y el cumplimiento del RGPD.</p>
         </div>
 
         <div class="content-section">
             <h2>2. Datos que Recolectamos</h2>
             <p>Para proporcionar análisis de rendimiento y recuperación, la aplicación accede a:</p>
             <ul>
-                <li><strong>Datos de Salud (HealthKit):</strong> Variabilidad de la frecuencia cardíaca (HRV), incluyendo el historial de los últimos 14 días para determinar tu baseline dinámico individual, y duración del sueño.</li>
+                <li><strong>Datos de Salud y Entrenamientos (HealthKit / Apple Fitness):</strong> Variabilidad de la frecuencia cardíaca (HRV) —incluyendo el historial de los últimos 14 días para tu baseline dinámico—, duración del sueño, peso corporal, sexo biológico y entrenamientos registrados en la app Apple Fitness (filtrados de origen Apple y deduplicados localmente con Strava o Intervals.icu). De estos entrenamientos recuperamos métricas detalladas como la frecuencia cardíaca (media y máxima), velocidad/ritmo medio, potencia de carrera (Watts), pasos y cadencia (SPM/RPM), y desnivel positivo acumulado para el cálculo de estrés y biomecánica deportiva.</li>
                 <li><strong>Datos de Entrenamiento (Strava e Intervals.icu):</strong> Historial de actividades de ciclismo/deportes, potencia promedio y normalizada, frecuencia cardíaca, cadencia, distancia y tiempo. Puedes elegir conectar Strava o bien Intervals.icu como tu proveedor principal.</li>
                 <li><strong>Perfil del Atleta:</strong> Peso, frecuencia cardíaca máxima y umbral de potencia (FTP) introducidos por el usuario.</li>
                 <li><strong>Interacciones del Chat:</strong> Mensajes de texto que escribes al Coach y notas que le pides recordar explícitamente sobre tu historial o equipamiento.</li>
@@ -105,7 +105,7 @@
                 <li>No almacenamos tus datos de salud en servidores externos.</li>
                 <li>No compartimos tu información con terceros para fines publicitarios o comerciales.</li>
                 <li>Las credenciales de acceso de Strava e Intervals.icu se almacenan de forma cifrada mediante ofuscación y cifrado XOR dentro del Keychain seguro de iOS.</li>
-                <li><strong>Exclusión Mutua de Conexiones:</strong> Para maximizar tu privacidad, la conexión a plataformas de entrenamiento es excluyente. Conectar Strava desconectará de inmediato Intervals.icu y purgará de forma definitiva sus credenciales del Keychain, y viceversa.</li>
+                <li><strong>Exclusión Mutua de Conexiones:</strong> Para maximizar tu privacidad, la conexión a plataformas de entrenamiento en la nube (Strava e Intervals.icu) es excluyente. Conectar Strava desconectará de inmediato Intervals.icu y purgará de forma definitiva sus credenciales del Keychain, y viceversa. La integración con Apple Fitness puede coexistir con cualquiera de ellas ya que su procesamiento de datos es completamente local en tu dispositivo y cuenta con un algoritmo inteligente de deduplicación de entrenamientos.</li>
                 <li>Las respuestas del Coach se generan mediante un motor de análisis de inteligencia artificial ejecutado 100% local en tu dispositivo. Tu historial de conversación permanece privado en tu iPhone.</li>
             </ul>
         </div>
